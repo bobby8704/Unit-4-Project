@@ -5,7 +5,7 @@ def lpf(n): #Largest Prime Factor
         if n % i == 0:  # if n is divisible by i
             n /= i  # n is equal to n/i
         else:
-            i += 1  i+1 until n is divisble by i
+            i += 1 # i+1 until n is divisble by i
             
     return n
   
